@@ -4,7 +4,7 @@ kind: Kustomization
 configMapGenerator:
   ################# Payment Service #################
   - name: payment-service
-    namespace: nonprod-neo-platform
+#    namespace: neo-platform
     envs:
       - payment-service/.env
 
